@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     let projects: [Project] = [ // adding current projects
-        Project(name: "ClickCounter", icon: "pluc.circle", view: AnyView(CounterView()))
+        Project(name: "ClickCounter", icon: "plus.circle", view: AnyView(CounterView()))
         ]
     
     var body: some View {
