@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ContentView.swift - ГЛАВНЫЙ ЭКРАН
 //  CodeLogicMind
 //
 //  Created by Валерия Пономарева on 25.06.2026.
@@ -19,6 +19,6 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+ //   ContentView()
+//}
