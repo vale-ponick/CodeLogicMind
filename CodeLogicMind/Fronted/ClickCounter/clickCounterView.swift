@@ -14,7 +14,7 @@ struct ClickCounterView: View {
         VStack(spacing: 30) {
             Text("\(count)")
                 .font(.system(size: 60, weight: .bold))
-                .foregroundColor(.blue)
+                .foregroundColor(.green)
             Button("Press") {
                 count += 1
             }
