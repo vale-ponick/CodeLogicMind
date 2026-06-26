@@ -1,16 +1,15 @@
 //
-//  project.swift
+//  project.swift // модель данных
 //  CodeLogicMind
 //
-//  Created by Валерия Пономарева on 24.06.2026.
+//  Created by Валерия Пономарева on 25.06.2026.
 //
 
-import Foundation
 import SwiftUI
 
-struct Project: Identifiable {
-    let id = UUID()
-    let name: String // name project
-    let icon: String // icon(changing)
-    let view: AnyView // view of ? project
+struct Project: Identifiable { // Подписываемся под протокол Identifiable (требует наличия id)
+    let id = UUID()           // Уникальный идентификатор — создаётся автоматически при инициализации
+    let name: String          // Название проекта (увидит пользователь)
+    let icon: String          // Имя системной иконки (SF Symbols)
+    let view: AnyView         // Экран проекта (AnyView — стирает тип, чтобы хранить разные экраны в одном массиве)
 }

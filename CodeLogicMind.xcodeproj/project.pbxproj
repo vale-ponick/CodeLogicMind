@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		581680882FEB5C2000D88D7E /* CodeLogicMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLogicMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FFA6792FEC8FAB00E0318A /* CodeLogicMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLogicMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5816808A2FEB5C2000D88D7E /* CodeLogicMind */ = {
+		58FFA67B2FEC8FAB00E0318A /* CodeLogicMind */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CodeLogicMind;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		581680852FEB5C2000D88D7E /* Frameworks */ = {
+		58FFA6762FEC8FAB00E0318A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5816807F2FEB5C2000D88D7E = {
+		58FFA6702FEC8FAB00E0318A = {
 			isa = PBXGroup;
 			children = (
-				5816808A2FEB5C2000D88D7E /* CodeLogicMind */,
-				581680892FEB5C2000D88D7E /* Products */,
+				58FFA67B2FEC8FAB00E0318A /* CodeLogicMind */,
+				58FFA67A2FEC8FAB00E0318A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		581680892FEB5C2000D88D7E /* Products */ = {
+		58FFA67A2FEC8FAB00E0318A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				581680882FEB5C2000D88D7E /* CodeLogicMind.app */,
+				58FFA6792FEC8FAB00E0318A /* CodeLogicMind.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		581680872FEB5C2000D88D7E /* CodeLogicMind */ = {
+		58FFA6782FEC8FAB00E0318A /* CodeLogicMind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 581680932FEB5C2200D88D7E /* Build configuration list for PBXNativeTarget "CodeLogicMind" */;
+			buildConfigurationList = 58FFA6842FEC8FAD00E0318A /* Build configuration list for PBXNativeTarget "CodeLogicMind" */;
 			buildPhases = (
-				581680842FEB5C2000D88D7E /* Sources */,
-				581680852FEB5C2000D88D7E /* Frameworks */,
-				581680862FEB5C2000D88D7E /* Resources */,
+				58FFA6752FEC8FAB00E0318A /* Sources */,
+				58FFA6762FEC8FAB00E0318A /* Frameworks */,
+				58FFA6772FEC8FAB00E0318A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5816808A2FEB5C2000D88D7E /* CodeLogicMind */,
+				58FFA67B2FEC8FAB00E0318A /* CodeLogicMind */,
 			);
 			name = CodeLogicMind;
 			packageProductDependencies = (
 			);
 			productName = CodeLogicMind;
-			productReference = 581680882FEB5C2000D88D7E /* CodeLogicMind.app */;
+			productReference = 58FFA6792FEC8FAB00E0318A /* CodeLogicMind.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		581680802FEB5C2000D88D7E /* Project object */ = {
+		58FFA6712FEC8FAB00E0318A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2650;
 				LastUpgradeCheck = 2650;
 				TargetAttributes = {
-					581680872FEB5C2000D88D7E = {
+					58FFA6782FEC8FAB00E0318A = {
 						CreatedOnToolsVersion = 26.5;
 					};
 				};
 			};
-			buildConfigurationList = 581680832FEB5C2000D88D7E /* Build configuration list for PBXProject "CodeLogicMind" */;
+			buildConfigurationList = 58FFA6742FEC8FAB00E0318A /* Build configuration list for PBXProject "CodeLogicMind" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5816807F2FEB5C2000D88D7E;
+			mainGroup = 58FFA6702FEC8FAB00E0318A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 581680892FEB5C2000D88D7E /* Products */;
+			productRefGroup = 58FFA67A2FEC8FAB00E0318A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				581680872FEB5C2000D88D7E /* CodeLogicMind */,
+				58FFA6782FEC8FAB00E0318A /* CodeLogicMind */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		581680862FEB5C2000D88D7E /* Resources */ = {
+		58FFA6772FEC8FAB00E0318A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		581680842FEB5C2000D88D7E /* Sources */ = {
+		58FFA6752FEC8FAB00E0318A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		581680912FEB5C2200D88D7E /* Debug */ = {
+		58FFA6822FEC8FAD00E0318A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		581680922FEB5C2200D88D7E /* Release */ = {
+		58FFA6832FEC8FAD00E0318A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		581680942FEB5C2200D88D7E /* Debug */ = {
+		58FFA6852FEC8FAD00E0318A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -275,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		581680952FEB5C2200D88D7E /* Release */ = {
+		58FFA6862FEC8FAD00E0318A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		581680832FEB5C2000D88D7E /* Build configuration list for PBXProject "CodeLogicMind" */ = {
+		58FFA6742FEC8FAB00E0318A /* Build configuration list for PBXProject "CodeLogicMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				581680912FEB5C2200D88D7E /* Debug */,
-				581680922FEB5C2200D88D7E /* Release */,
+				58FFA6822FEC8FAD00E0318A /* Debug */,
+				58FFA6832FEC8FAD00E0318A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		581680932FEB5C2200D88D7E /* Build configuration list for PBXNativeTarget "CodeLogicMind" */ = {
+		58FFA6842FEC8FAD00E0318A /* Build configuration list for PBXNativeTarget "CodeLogicMind" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				581680942FEB5C2200D88D7E /* Debug */,
-				581680952FEB5C2200D88D7E /* Release */,
+				58FFA6852FEC8FAD00E0318A /* Debug */,
+				58FFA6862FEC8FAD00E0318A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 581680802FEB5C2000D88D7E /* Project object */;
+	rootObject = 58FFA6712FEC8FAB00E0318A /* Project object */;
 }
