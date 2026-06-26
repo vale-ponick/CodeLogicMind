@@ -13,7 +13,12 @@ struct ContentView: View {
             name: "ClickCounter",
             icon: "plus.circle",
             view: AnyView(ClickCounterView())
-        )
+        ),
+        Project(
+            name: "StepCounterBilboBaggins",
+            icon: "figure.walk",
+            view: AnyView(StepCounterBilboBagginsView())
+            )
     ]
     
     var body: some View {
