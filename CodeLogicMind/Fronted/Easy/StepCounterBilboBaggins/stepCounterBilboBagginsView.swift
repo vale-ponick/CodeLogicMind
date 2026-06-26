@@ -12,6 +12,12 @@ struct StepCounterBilboBagginsView: View {
     
     var body: some View {
         VStack(spacing: 30) {
+            Image("hobbit")        // ← имя файла в Assets
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100, height: 100)
+                .clipShape(Circle())
+            
             Text("\(steps)")
                 .font(.system(size: 50, weight: .bold))
                 .foregroundColor(.gray)
