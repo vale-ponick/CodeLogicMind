@@ -14,11 +14,12 @@ struct ClickCounterView: View {
         VStack(spacing: 30) {
             Text("\(count)")
                 .font(.system(size: 60, weight: .bold))
-                .foregroundColor(.green)
-            Button("Press") {
-                count += 1
-            }
-            .buttonStyle(.borderedProminent)
+                .foregroundColor(.gray)
+            
+                Button("Go") {
+                    count += 1
+                }
+                .buttonStyle(.borderedProminent)
         }
         .padding()
         .navigationTitle("ClickCounter")

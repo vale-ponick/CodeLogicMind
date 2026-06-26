@@ -10,15 +10,20 @@ import SwiftUI
 struct ContentView: View {
     let projects: [Project] = [
         Project(
-            name: "ClickCounter",
+            name: "Click Counter",
             icon: "plus.circle",
             view: AnyView(ClickCounterView())
         ),
         Project(
-            name: "StepCounterBilboBaggins",
+            name: "Step Counter Bilbo Baggins",
             icon: "figure.walk",
             view: AnyView(StepCounterBilboBagginsView())
-            )
+            ),
+        Project(
+            name: "Number Counter Medium",
+            icon: "number.circle.fill",
+            view: AnyView(NumberCounterMediumView())
+        )
     ]
     
     var body: some View {
