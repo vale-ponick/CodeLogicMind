@@ -28,7 +28,12 @@ struct ContentView: View {
                name: "ClickCounter Hard",
                icon: "number.circle.fill",
                view: AnyView(ClickCounterHardView())
-           )
+           ),
+        Project(
+            name: "Algorithms",
+            icon: "brain",
+            view: AnyView(AlgorithmDemoView())
+            )
     ]
     
     var body: some View {
