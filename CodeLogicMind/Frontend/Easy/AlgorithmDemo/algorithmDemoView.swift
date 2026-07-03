@@ -26,7 +26,7 @@ struct AlgorithmDemoView: View {
             
             Button("Find second largest") {
                 let array = parseInput(inputArray)
-                result = secondLargest(in: array)
+                result = secondLargestMid(array)
             }
             .buttonStyle(.borderedProminent)
             
