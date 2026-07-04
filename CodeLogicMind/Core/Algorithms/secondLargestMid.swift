@@ -37,3 +37,10 @@ func secondLargestMid(_ array: [Int]) -> Int? {
     return second
 }
 
+// MARK: - Универсальный подход (n-й максимум)
+// Время: O(N log N) | Память: O(N)
+func nthLargest(_ n: Int, in array: [Int]) -> Int? {
+    let uniqueSorted = Set(array).sorted(by: >)
+    guard n > 0, n <= uniqueSorted.count else { return nil }
+    return uniqueSorted[n - 1]
+}

@@ -41,11 +41,17 @@ struct AlgorithmDemoView: View {
         }
         .padding()
         .navigationTitle("Algorithm Demo")
+        .onAppear {
+                   let nums = [3, 7, 2, 9, 4, 9, 6]
+                   print("nthLargest(1):", nthLargest(1, in: nums) ?? "nil")
+                   print("nthLargest(2):", nthLargest(2, in: nums) ?? "nil")
+                   print("nthLargest(3):", nthLargest(3, in: nums) ?? "nil")
+                   print("nthLargest(7):", nthLargest(7, in: nums) ?? "nil")
+               }
     }
     func parseInput(_ string: String) -> [Int] {
         string
             .split(separator: ",")
             .compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
-        
     }
 }
