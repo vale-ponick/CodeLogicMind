@@ -10,9 +10,33 @@
 		58FFA6792FEC8FAB00E0318A /* CodeLogicMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLogicMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		58791B7F2FF94B560027ED06 /* Exceptions for "CodeLogicMind" folder in "CodeLogicMind" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/Algorithms/algorithmicTriptych.md,
+			);
+			target = 58FFA6782FEC8FAB00E0318A /* CodeLogicMind */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		58791B802FF94B560027ED06 /* Exceptions for "CodeLogicMind" folder in "Compile Sources" phase from "CodeLogicMind" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 58FFA6752FEC8FAB00E0318A /* Sources */;
+			membershipExceptions = (
+				Core/Algorithms/algorithmicTriptych.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		58FFA67B2FEC8FAB00E0318A /* CodeLogicMind */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				58791B7F2FF94B560027ED06 /* Exceptions for "CodeLogicMind" folder in "CodeLogicMind" target */,
+				58791B802FF94B560027ED06 /* Exceptions for "CodeLogicMind" folder in "Compile Sources" phase from "CodeLogicMind" target */,
+			);
 			path = CodeLogicMind;
 			sourceTree = "<group>";
 		};
